@@ -63,6 +63,11 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+.com{
+  margin-left: 7%;
+  margin-bottom: 6%;
+  font-size: 1.8em;
+}
 body {
   margin: 0;
 }
