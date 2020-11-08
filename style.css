@@ -8305,15 +8305,15 @@ a:focus {
   }
 }
 .navbar-nav li {
-  padding: 13px 32px;
+  padding: 15px 20px;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .navbar-nav li {
-    padding: 13px 19px;
+    padding: 12px 19px;
   }
 }
 .navbar-nav li a {
-  font-size: 14px;
+  font-size: 16px;
   padding: 0;
   text-transform: uppercase;
 }
