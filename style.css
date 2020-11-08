@@ -19254,3 +19254,8 @@ a:focus {
 .bx-wrapper .bx-pager.bx-default-pager a.active {
   background: #ff7236;
 }
+.com{
+  margin-left: 7%;
+  margin-bottom: 6%;
+  font-size: 1.8em;
+}
