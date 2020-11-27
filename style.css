@@ -63,6 +63,11 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+.com{
+  margin-left: 7%;
+  margin-bottom: 6%;
+  font-size: 1.8em;
+}
 body {
   margin: 0;
 }
@@ -88,6 +93,40 @@ video {
   display: inline-block;
   vertical-align: baseline;
 }
+
+.dropdown {
+  float: left;
+}
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -8271,15 +8310,15 @@ a:focus {
   }
 }
 .navbar-nav li {
-  padding: 13px 32px;
+  padding: 15px 20px;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .navbar-nav li {
-    padding: 13px 19px;
+    padding: 12px 19px;
   }
 }
 .navbar-nav li a {
-  font-size: 14px;
+  font-size: 16px;
   padding: 0;
   text-transform: uppercase;
 }
@@ -9406,8 +9445,10 @@ a:focus {
   position: relative;
 }
 .welcome-section .welcome-image {
-  background-image: url(images/welcome-img-home-v1.jpg);
-  background-position: center top;
+  /* background-image: url("images/courses/BCA.jpg");
+   */
+   background: red;
+   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -9417,6 +9458,9 @@ a:focus {
   top: 0;
   width: 48%;
   z-index: -1;
+}
+.welcome-section .welcome-image img{
+  z-index: 10;
 }
 @media (max-width: 991px) {
   .welcome-section .welcome-image {
@@ -19219,4 +19263,9 @@ a:focus {
 }
 .bx-wrapper .bx-pager.bx-default-pager a.active {
   background: #ff7236;
+}
+.com{
+  margin-left: 7%;
+  margin-bottom: 6%;
+  font-size: 1.8em;
 }
