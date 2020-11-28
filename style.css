@@ -9445,8 +9445,8 @@ a:focus {
   position: relative;
 }
 .welcome-section .welcome-image {
-  /* background-image: url("images/courses/BCA.jpg");
-   */
+   /*background-image: url("images/welcome-img-home-v3.jpg");*/
+   
    background: red;
    background-position: center top;
   background-repeat: no-repeat;
@@ -9470,6 +9470,35 @@ a:focus {
 }
 @media (max-width: 991px) {
   .welcome-section .welcome-image {
+    display: none;
+  }
+}
+.welcome-section .welcome-image1 {
+   background-image: url("images/welcome-img-home-v3.jpg");
+  /* 
+   background: red;*/
+   background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  min-height: 720px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 48%;
+  z-index: -1;
+}
+.welcome-section .welcome-image1 img{
+  z-index: 10;
+}
+@media (max-width: 991px) {
+  .welcome-section .welcome-image1 {
+    position: relative;
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .welcome-section .welcome-image1 {
     display: none;
   }
 }
