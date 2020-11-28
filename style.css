@@ -9445,9 +9445,9 @@ a:focus {
   position: relative;
 }
 .welcome-section .welcome-image {
-   /*background-image: url("images/welcome-img-home-v3.jpg");*/
+   background-image: url("images/welcome-img-home-v3.jpg");
    
-   background: red;
+   /*background: red;*/
    background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
