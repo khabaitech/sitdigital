@@ -9502,6 +9502,35 @@ a:focus {
     display: none;
   }
 }
+.welcome-section .welcome-image2 {
+   background-image: url("images/dca.jpg");
+  /* 
+   background: red;*/
+   background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  min-height: 720px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 48%;
+  z-index: -1;
+}
+.welcome-section .welcome-image2 img{
+  z-index: 10;
+}
+@media (max-width: 991px) {
+  .welcome-section .welcome-image2 {
+    position: relative;
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .welcome-section .welcome-image2 {
+    display: none;
+  }
+}
 .welcome-section .welcome-wrap {
   min-height: 720px;
   position: relative;
