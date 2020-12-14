@@ -9430,7 +9430,7 @@ a:focus {
   text-transform: none;
 }
 @media (max-width: 767px) {
-  .search-filters .filter-box h3 {
+  .search-filters .filter-box h1 {
     font-size: 18px;
     margin: 0 0 30px;
   }
